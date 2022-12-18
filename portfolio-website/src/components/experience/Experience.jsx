@@ -11,8 +11,10 @@ import {
   DiPhp,
   DiMongodb,
   DiMysql,
+  DiGit,
 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 const Experience = () => {
   return (
@@ -27,28 +29,28 @@ const Experience = () => {
               <AiFillHtml5 className="exp__icons" />
               <div>
                 <h4>HTML5</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="exp__details">
               <DiCss3 className="exp__icons" />
               <div>
                 <h4>CSS3</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="exp__details">
               <DiJavascript1 className="exp__icons" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="exp__details">
               <DiBootstrap className="exp__icons" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="exp__details">
@@ -69,7 +71,7 @@ const Experience = () => {
               <DiWordpress className="exp__icons" />
               <div>
                 <h4>WordPress</h4>
-                <small className="text-light">Intermidiate</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
           </div>
@@ -103,6 +105,20 @@ const Experience = () => {
               <div>
                 <h4>MySQL</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="exp__details">
+              <FaAws className="exp__icons" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="exp__details">
+              <DiGit className="exp__icons" />
+              <div>
+                <h4>Git</h4>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
           </div>

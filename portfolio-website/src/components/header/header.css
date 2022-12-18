@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 3rem;
   overflow: hidden;
 }
 
@@ -8,6 +8,18 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+}
+
+header h1 {
+  font-size: 3.5rem;
+}
+
+header h6 {
+  font-size: 1.2rem;
+}
+
+header h5 {
+  font-size: 1.5rem;
 }
 
 /****** CTA ******/
@@ -63,8 +75,8 @@ header {
 /* ****** MEDIA QUERIES (MEDIUM DEVICES) ***** */
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 78vh;
+  header h1 {
+    font-size: 2.5rem;
   }
 }
 
@@ -78,5 +90,14 @@ header {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header h6,
+  header h5 {
+    font-size: 1rem;
   }
 }

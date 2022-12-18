@@ -1,8 +1,10 @@
 import { React, useState } from "react";
 import "./nav.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { RiServiceLine } from "react-icons/ri";
-import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
+import { AiOutlineHome, AiOutlineUser, AiOutlineProject } from "react-icons/ai";
+
+import { BiMessageSquareDetail } from "react-icons/bi";
+
+import { TbFileCertificate } from "react-icons/tb";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -27,14 +29,14 @@ const Nav = () => {
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBook />
+        <TbFileCertificate />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <RiServiceLine />
+        <AiOutlineProject />
       </a>
       <a
         href="#contact-form"

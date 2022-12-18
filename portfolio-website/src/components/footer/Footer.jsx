@@ -22,24 +22,24 @@ const Footer = () => {
         <li>
           <a href="#experience">Experience</a>
         </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
+
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
+
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/rohit-vasu/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedinIn />
         </a>
-        <a href="">
+        <a href="https://github.com/41rohitt" target="_blank" rel="noreferrer">
           <FiGithub />
         </a>
       </div>
